@@ -21,3 +21,15 @@ code {
   box-sizing:border-box;
   
 }
+section {
+  display:Flex;
+  align-items:center;
+  flex-direction: column;
+  height: 100vh;
+
+}
+.section h2 {
+  font-size: 5rem;
+  margin-bottom:2rem;
+  font-family:'Montserrat', sans-serif;
+}
