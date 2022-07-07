@@ -1,12 +1,19 @@
 import React from 'react';
+// import { useContext } from 'react';
+// import { NavContext } from '../context/NavContext';
 import Styles from '../../Styles/Header.module.css';
 
 const Header = () => {
-    const navLink = ['About Me', 'My Work', 'Contact'];
+    // const {activeLinkId} = useContext(NavContext);
+    const navLink = ['AboutMe', 'MyWork', 'ContactMe'];
     const renderNavLink = (content) => {
+        const scrollToId =`${content}Section`;
+        const handleClickNav = () => {
+           document.getElementById(scrollToId).scrollIntoView({ behavior:'smooth'});
+        }
         return (
             <ul key = {content}>
-                <li>
+                <li onClick={handleClickNav}>
                     {content}
                 </li>
             </ul>

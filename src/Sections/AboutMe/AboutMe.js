@@ -2,9 +2,10 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <section id='aboutMeSection'>
-        <h2>About Me</h2>
-        <p>Lore abdkiashdashdj ahsdhsaduhus asgduadj 
+    <section id='AboutMeSection'>
+        <h2 >Hello.<br/>
+       <span>I am</span> Samm </h2>
+        <p class = 'test'>Lore abdkiashdashdj ahsdhsaduhus asgduadj 
             adhuwefhujenjsghcbf ahdbguagdbjad badgugduahd bjdjebfjuefgb badgughdujbas d 
         </p>
     </section>

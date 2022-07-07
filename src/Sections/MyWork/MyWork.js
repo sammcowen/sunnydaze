@@ -2,7 +2,7 @@ import React from 'react'
 
 const MyWork = () => {
   return (
-    <section id='myWorkSection'>
+    <section id='MyWorkSection'>
         <h2>My Work</h2>
         <p>Lore abdkiashdashdj ahsdhsaduhus asgduadj 
             adhuwefhujenjsghcbf ahdbguagdbjad badgugduahd bjdjebfjuefgb badgughdujbas d 
