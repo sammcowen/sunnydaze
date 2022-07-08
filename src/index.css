@@ -22,13 +22,12 @@ code {
   box-sizing:border-box;
   scroll-behavior: smooth;
 }
+
 section {
   display:Flex;
   align-items:center;
   flex-direction: column;
   height: 100vh;
-  margin-top:60px;
-
 
 }
 section span {
@@ -36,15 +35,46 @@ section span {
 
 }
 section h2 {
-  font-size:130px;
+  margin-top:40px;
+  font-size:100px;
   font-style:normal;
   font-weight: bold;
   margin-bottom:2rem;
   font-family:'Montserrat', sans-serif;
   color:#efe9f4;
 }
-.sectionHeader p {
+.sectionHeader  {
   font-family:'Lora', serif;
   color:#171d1c;
+  font-size:20px;
+  font-weight:bold;
+  margin-top:15px;
+  padding:5px;
 
+ 
+}
+.sectionHeader span {
+  color:#efe9f4;
+  font-weight:bold;
+
+}
+.sectionHeader a {
+  text-decoration:none;
+  color:#171d1c;
+}
+.resize {
+  width:120px;
+  height:120px;
+}
+.contactflex {
+
+  margin-top:200px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+
+}
+
+.contactflex a {
+  justify-content: space-between;
 }
