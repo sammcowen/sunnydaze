@@ -7,7 +7,7 @@ const ContactMe = () => {
   return (
     <section id='ContactMeSection'>
     <h2>Contact Me<br/>
-    I'd <span>love</span> to <span>work</span> for you!</h2>
+    <span>Let's  Connect</span> !</h2>
     
     
 

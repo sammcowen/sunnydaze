@@ -18,6 +18,11 @@
     
 
 }
+.card-subtitle {
+    color:#171d1c !important;
+    font-weight:bold !important;
+
+}
 .card:hover {
     box-shadow: 3px 3px 3px 3px  #171d1c;
 }
