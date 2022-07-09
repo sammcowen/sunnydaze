@@ -1,0 +1,49 @@
+.header {
+    background-color:none;
+    color:lightgrey;
+    padding:1rem;
+    position: fixed;
+    width: 100%;
+
+}
+.container {
+    max-width:1200px;
+    margin: 0 auto;
+
+}
+.navContainer {
+display:flex;
+align-items:center;
+justify-content: space-between;
+}
+
+.navContainer h1 {
+    font-size: 2rem;
+    cursor:pointer;
+    color:white;
+}
+.navContainer nav {
+    display:Flex;
+    gap:2.5rem;
+
+}
+.navContainer li {
+    font-size:1 rem;
+    cursor:pointer;
+    color:lightgrey;
+    background: none;
+    border:none;
+    position:relative;
+
+}
+.anvContainer li:before {
+content:'';
+position:absolute;
+height:1px;
+width:100%;
+
+}
+.navContainer li:hover {
+    color:lime;
+
+}

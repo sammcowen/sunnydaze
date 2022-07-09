@@ -1,0 +1,44 @@
+.container {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.MyWorkSection {
+    height:150vh !important;
+
+}
+.card {
+    background:none !important;
+    color: #efe9f4 !important;
+   border: 2px solid #171d1c;
+
+    
+
+}
+.card-subtitle {
+    color:#171d1c !important;
+    font-weight:bold !important;
+
+}
+.card:hover {
+    box-shadow: 3px 3px 3px 3px  #171d1c;
+}
+.card a {
+    text-decoration: none;
+    color:#efe9f4;
+}
+
+.card-img-top {
+    width:285px !important;
+    height:285px !important;
+
+}
+
+.col{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
