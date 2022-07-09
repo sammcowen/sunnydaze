@@ -6,7 +6,10 @@
     justify-content: space-between;
 
 }
+.MyWorkSection {
+    height:150vh !important;
 
+}
 .card {
     background:none !important;
     color: #efe9f4 !important;
@@ -14,6 +17,9 @@
 
     
 
+}
+.card:hover {
+    box-shadow: 3px 3px 3px 3px  #171d1c;
 }
 .card a {
     text-decoration: none;

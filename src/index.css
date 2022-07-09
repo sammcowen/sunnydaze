@@ -27,7 +27,7 @@ section {
   display:Flex;
   align-items:center;
   flex-direction: column;
-  height: 100vh;
+  height: 150vh;
 
 }
 section span {
